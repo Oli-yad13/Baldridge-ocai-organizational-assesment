@@ -1,0 +1,190 @@
+{
+  "title": "OCAI Assessment",
+  "subtitle": "Organizational Culture Assessment Instrument",
+  "description": "Understand your organization's current culture and envision your preferred future culture.",
+  "instructions": {
+    "title": "Assessment Instructions",
+    "welcome": "Welcome to the OCAI Assessment",
+    "intro": "This assessment helps identify your organization's current culture and your preferred culture for the future.",
+    "howTo": "How to Complete",
+    "step1": "For each question, divide 100 points among four alternatives",
+    "step2": "Give higher points to the alternative that best describes your organization",
+    "step3": "Complete both 'Now' and 'Preferred' columns",
+    "step4": "The total must equal 100 for each question",
+    "duration": "Estimated time: 15-20 minutes",
+    "start": "Start Assessment"
+  },
+  "dimensions": {
+    "clan": {
+      "name": "Clan",
+      "subtitle": "Collaborate",
+      "description": "Friendly, family-like environment focused on teamwork and employee development",
+      "characteristics": "A very personal place. Like an extended family. Leaders are mentors. The organization is held together by loyalty and tradition. Commitment is high. Emphasis on teamwork, participation, and consensus."
+    },
+    "adhocracy": {
+      "name": "Adhocracy",
+      "subtitle": "Create",
+      "description": "Dynamic, entrepreneurial environment focused on innovation and growth",
+      "characteristics": "Dynamic and entrepreneurial workplace. People take risks. Leaders are innovators and risk takers. The emphasis is on being at the leading edge. Long-term focus on growth and acquiring new resources."
+    },
+    "market": {
+      "name": "Market",
+      "subtitle": "Achieve",
+      "description": "Results-oriented environment focused on mission achievement and delivering impact",
+      "characteristics": "Results-oriented workplace. Leaders are hard drivers and goal-focused. The focus is on achieving the mission. Success is defined by program reach and impact. Resource efficiency and leadership in the sector are important."
+    },
+    "hierarchy": {
+      "name": "Hierarchy",
+      "subtitle": "Control",
+      "description": "Structured, controlled environment focused on efficiency and stability",
+      "characteristics": "Formalized and structured workplace. Procedures govern what people do. Leaders are coordinators and organizers. Maintaining smooth-running operations is important. Focus on efficiency, predictability, and stability."
+    }
+  },
+  "questionDimensions": {
+    "dominant_characteristics": {
+      "title": "Dominant Characteristics",
+      "description": "The organization is a very personal place. It is like an extended family. People seem to share a lot of themselves.",
+      "optionA": "The organization is a very personal place. It is like an extended family. People seem to share a lot of themselves.",
+      "optionB": "The organization is a very dynamic and entrepreneurial place. People are willing to stick their necks out and take risks.",
+      "optionC": "The organization is very results oriented. A major concern is with getting the job done. People are very goal-driven and achievement oriented.",
+      "optionD": "The organization is a very controlled and structured place. Formal procedures generally govern what people do."
+    },
+    "leadership": {
+      "title": "Leadership",
+      "description": "The leadership in the organization is generally considered to exemplify mentoring, facilitating, or nurturing.",
+      "optionA": "The leadership in the organization is generally considered to exemplify mentoring, facilitating, or nurturing.",
+      "optionB": "The leadership in the organization is generally considered to exemplify entrepreneurship, innovating, or risk taking.",
+      "optionC": "The leadership in the organization is generally considered to exemplify a no-nonsense, assertive, results-oriented focus.",
+      "optionD": "The leadership in the organization is generally considered to exemplify coordinating, organizing, or smooth-running efficiency."
+    },
+    "management_employees": {
+      "title": "Management of Employees",
+      "description": "The management style in the organization is characterized by teamwork, consensus, and participation.",
+      "optionA": "The management style in the organization is characterized by teamwork, consensus, and participation.",
+      "optionB": "The management style in the organization is characterized by individual risk-taking, innovation, freedom, and uniqueness.",
+      "optionC": "The management style in the organization is characterized by a hard-driving focus on results, high demands, and achievement.",
+      "optionD": "The management style in the organization is characterized by security of employment, conformity, predictability, and stability in relationships."
+    },
+    "organization_glue": {
+      "title": "Organization Glue",
+      "description": "The glue that holds the organization together is loyalty and mutual trust. Commitment to this organization runs high.",
+      "optionA": "The glue that holds the organization together is loyalty and mutual trust. Commitment to this organization runs high.",
+      "optionB": "The glue that holds the organization together is commitment to innovation and development. There is an emphasis on being on the cutting edge.",
+      "optionC": "The glue that holds the organization together is the emphasis on achievement and goal accomplishment. Being impactful and achieving our mission is the common thread.",
+      "optionD": "The glue that holds the organization together is formal rules and policies. Maintaining a smooth-running organization is important."
+    },
+    "strategic_emphases": {
+      "title": "Strategic Emphases",
+      "description": "The organization emphasizes human development. High trust, openness, and participation persist.",
+      "optionA": "The organization emphasizes human development. High trust, openness, and participation persist.",
+      "optionB": "The organization emphasizes acquiring new resources and creating new challenges. Trying new things and prospecting for opportunities are valued.",
+      "optionC": "The organization emphasizes high-impact actions and achievement. Hitting stretch targets and leading in our sector are dominant.",
+      "optionD": "The organization emphasizes permanence and stability. Efficiency, control, and smooth operations are valued."
+    },
+    "criteria_success": {
+      "title": "Criteria of Success",
+      "description": "The organization defines success on the basis of the development of human resources, teamwork, employee commitment, and concern for people.",
+      "optionA": "The organization defines success on the basis of the development of human resources, teamwork, employee commitment, and concern for people.",
+      "optionB": "The organization defines success on the basis of having the most unique or newest programs. It is a service leader and innovator.",
+      "optionC": "The organization defines success on the basis of leading in its sector and achieving greater impact than peer organizations. Sector leadership is key.",
+      "optionD": "The organization defines success on the basis of efficiency. Dependable delivery, smooth scheduling, and cost-effectiveness are critical."
+    }
+  },
+  "cultureDescriptions": {
+    "clan": {
+      "fullDescription": "A friendly place to work where people share a lot of themselves. It is like an extended family. Leaders are thought of as mentors and perhaps even as parent figures. The organization is held together by loyalty or tradition. Commitment is high. The organization emphasizes the long-term benefit of human resource development and attaches great importance to cohesion and morale. Success is defined in terms of sensitivity to beneficiaries and concern for people. The organization places a premium on teamwork, participation, and consensus."
+    },
+    "adhocracy": {
+      "fullDescription": "A dynamic, entrepreneurial, and creative place to work. People stick their necks out and take risks. Leaders are considered innovators and risk takers. The glue that holds the organization together is commitment to experimentation and innovation. The emphasis is on being on the leading edge. The organization's long-term emphasis is on growth and acquiring new resources. Success means gaining unique and new services or programs. Being a service or program leader is important. The organization encourages individual initiative and freedom."
+    },
+    "market": {
+      "fullDescription": "A results-oriented organization whose major concern is with getting the job done. People are impact-driven and goal-oriented. Leaders are hard drivers, producers, and focused on results. They are tough and demanding. The glue that holds the organization together is an emphasis on achieving the mission. Reputation and success are common concerns. The long-term focus is on high-impact actions and achieving stretch targets and goals. Success is defined in terms of program reach and impact. Resource efficiency and leadership in the sector are important. The organizational style is a hard-driving focus on results."
+    },
+    "hierarchy": {
+      "fullDescription": "A very formalized and structured place to work. Procedures govern what people do. Leaders pride themselves on being good coordinators and organizers who are efficiency-minded. Maintaining a smooth-running organization is most critical. The organization is held together by formal rules and policies. The long-term concern is on stability and performance with efficient, smooth operations. Success is defined in terms of dependable delivery, smooth scheduling, and cost-effectiveness. Management wants security and predictability."
+    }
+  },
+  "timeline": {
+    "now": "Now (Current)",
+    "preferred": "Preferred (5 years)"
+  },
+  "results": {
+    "title": "Your OCAI Results",
+    "currentCulture": "Current Culture",
+    "preferredCulture": "Preferred Culture",
+    "cultureProfile": "Culture Profile",
+    "cultureChange": "Culture Change Required",
+    "delta": "Change",
+    "increase": "Increase",
+    "decrease": "Decrease",
+    "noChange": "No Change",
+    "understanding": "Understanding Your Results",
+    "currentDesc": "Your perception of the organization's current culture",
+    "preferredDesc": "Your desired culture for the organization in 5 years",
+    "changeDesc": "The gap between current and preferred culture",
+    "positiveChange": "Positive values (+) indicate you want more of this culture type",
+    "negativeChange": "Negative values (-) indicate you want less of this culture type",
+    "zeroChange": "Zero (0) indicates alignment between current and preferred",
+    "organizationResults": "Organization-Wide Results",
+    "aggregateResults": "Organization-Wide Aggregate Results",
+    "basedOn": "Based on {{count}} responses",
+    "individualResults": "Individual Results",
+    "viewIndividual": "View {{count}} individual employee responses",
+    "hideIndividual": "Hide individual responses",
+    "adminOnly": "Administrator View: Individual employee responses are visible to system administrators only.",
+    "privacyProtected": "Employee Privacy Protected",
+    "privacyDesc": "As a facilitator, you can view organization-wide aggregate results to understand overall culture patterns. Individual employee responses and personal details are kept confidential to encourage honest feedback and protect privacy.",
+    "submittedAt": "Submitted",
+    "completed": "Assessment Completed!",
+    "completedOn": "You completed the OCAI assessment on {{date}}",
+    "currentLeader": "Current Leader",
+    "exportPDF": "Export PDF"
+  },
+  "validation": {
+    "totalMustBe100": "Total must equal 100",
+    "allFieldsRequired": "Please complete all fields",
+    "invalidValue": "Please enter a valid number between 0 and 100"
+  },
+  "ocaiIntro": {
+    "title": "OCAI Assessment",
+    "subtitle": "Organizational Culture Assessment Instrument",
+    "heroTitle": "Organizational Culture Assessment Instrument (OCAI)",
+    "heroDescription": "Understand your organization's current and preferred culture using the proven Competing Values Framework",
+    "duration": "Duration",
+    "durationTime": "15-20 minutes",
+    "questions": "Questions",
+    "questionsCount": "24 questions (6 dimensions)",
+    "format": "Format",
+    "formatType": "Point allocation (100 points per question)",
+    "whatYouAssess": "What You'll Assess",
+    "sixDimensions": "Six Key Dimensions:",
+    "fourCultureTypes": "Four Culture Types:",
+    "howItWorksTitle": "How It Works",
+    "step1Label": "Step 1:",
+    "step1Text": "For each question, you'll see 4 statements (A, B, C, D) describing different aspects of your organization.",
+    "step2Label": "Step 2:",
+    "step2Text": "Divide 100 points among the 4 statements based on how similar they are to your organization.",
+    "step3Label": "Step 3:",
+    "step3Text": "You'll do this twice for each question:",
+    "nowLabel": "Now:",
+    "nowText": "How your organization currently is",
+    "preferredLabel": "Preferred:",
+    "preferredText": "How you would like your organization to be in 5 years",
+    "rememberLabel": "Remember:",
+    "rememberText": "The total points for each question must equal 100.",
+    "exampleQuestion": "Example Question",
+    "totalPoints": "Total: 100 points",
+    "privacyTitle": "Privacy & Confidentiality",
+    "privacy1": "Your individual responses are confidential and will not be shared with anyone",
+    "privacy2": "Only aggregate data is used for organizational analysis",
+    "privacy3": "You can save your progress and return later",
+    "privacy4": "Your honest feedback helps improve the organization",
+    "backToAssessments": "Back to Assessments",
+    "startAssessment": "Start OCAI Assessment",
+    "preparing": "Preparing Assessment...",
+    "alreadyCompleted": "You have already completed this assessment. You cannot retake it.",
+    "orgNotFound": "Organization information not found. Please sign in again.",
+    "createFailed": "Failed to create assessment. Please contact your administrator.",
+    "errorOccurred": "An error occurred. Please try again or contact your administrator."
+  }
+}

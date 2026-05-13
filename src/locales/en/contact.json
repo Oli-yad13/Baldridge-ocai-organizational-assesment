@@ -1,0 +1,153 @@
+{
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to transform your organization? Let's discuss how Tenadam's comprehensive training, consultancy, and assessment services can help you achieve your goals.",
+    "backToHome": "Back to Home",
+    
+    "info": {
+      "address": {
+        "title": "Our Address",
+        "value": "Lem-Hotel Area\nAddis Ababa, Ethiopia"
+      },
+      "phone": {
+        "title": "Phone Numbers",
+        "values": [
+          "+251-911-58-4260",
+          "+251-912-44-2502",
+          "+251-993-51-8990"
+        ]
+      },
+      "email": {
+        "title": "Email Address",
+        "value": "info@tenadamconsulting.com"
+      }
+    },
+    
+    "workingHours": {
+      "heading": "Working Hours",
+      "schedule": "Monday - Friday",
+      "time": "8:30 AM - 5:30 PM",
+      "description": "Our team is available during business hours to assist you with your training, consultancy, and assessment needs. We're committed to providing timely and professional support for all your organizational development requirements.",
+      "quickContact": "Quick Contact Options",
+      "call": {
+        "title": "Call us directly",
+        "description": "Available during business hours"
+      },
+      "email": {
+        "title": "Send us an email",
+        "description": "We'll respond within 24 hours"
+      },
+      "visit": {
+        "title": "Visit our office",
+        "description": "Lem-Hotel Area, Addis Ababa"
+      }
+    },
+    
+    "form": {
+      "heading": "Send us a Message",
+      "subtitle": "Have questions about our services or need a custom solution? We'd love to hear from you.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "organization": "Organization",
+      "service": "Service Interest",
+      "message": "Message",
+      "required": "*",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "placeholders": {
+        "firstName": "Enter your first name",
+        "lastName": "Enter your last name",
+        "email": "Enter your email address",
+        "phone": "Enter your phone number",
+        "organization": "Enter your organization name",
+        "message": "Tell us about your needs, challenges, or questions..."
+      },
+      "serviceOptions": {
+        "select": "Select a service",
+        "training": "Training Services",
+        "consultancy": "Consultancy Services",
+        "research": "Research Services",
+        "assessment": "Assessment Hub Platform",
+        "ocai": "OCAI Assessment",
+        "baldrige": "Baldrige Framework",
+        "other": "Other"
+      },
+      "success": {
+        "title": "Message Sent Successfully!",
+        "description": "Thank you for contacting us. We have received your message and will get back to you within 24 hours. You should also receive a confirmation email shortly."
+      },
+      "error": {
+        "title": "Error Sending Message",
+        "description": "There was an error sending your message. Please try again or contact us directly.",
+        "network": "Network error. Please try again."
+      }
+    },
+    
+    "services": {
+      "heading": "How We Can Help",
+      "subtitle": "Discover the range of services we offer to support your organizational development goals",
+      "training": {
+        "title": "Training Services",
+        "items": [
+          "Leadership and Management",
+          "Quality Enhancement and Standardization",
+          "Accounting and Finance",
+          "Marketing and Service Management",
+          "IT, Business and General Skills"
+        ]
+      },
+      "consultancy": {
+        "title": "Consultancy Services",
+        "items": [
+          "Business Strategy",
+          "Process Optimization",
+          "Change Management",
+          "Organizational Development",
+          "Market Research and Analysis",
+          "Risk Management"
+        ]
+      },
+      "research": {
+        "title": "Research Services",
+        "items": [
+          "Competitive Analysis",
+          "Feasibility Studies",
+          "Industry Research",
+          "Data Analysis and Interpretation",
+          "Custom Research Projects"
+        ]
+      }
+    },
+    
+    "testimonials": {
+      "heading": "What Our Clients Say",
+      "subtitle": "Discover what our clients think about our service",
+      "reviews": [
+        {
+          "quote": "The support we received from Tenadam Research, Training, and Consultancy was truly exceptional. Their meticulous research and practical training modules significantly boosted our operational efficiency and helped us navigate complex challenges with confidence. A fantastic partner for anyone seeking to enhance their capabilities!",
+          "author": "Shem Assefa",
+          "role": "Client"
+        },
+        {
+          "quote": "Tenadam Research, Training, and Consultancy has been instrumental in refining our strategic approach. Their in-depth research and tailored training programs have equipped our team with invaluable insights, leading to more effective decision-making and improved project outcomes. We highly recommend their expertise!",
+          "author": "Henok Gessesse",
+          "role": "Client"
+        }
+      ]
+    },
+    
+    "cta": {
+      "heading": "Ready to Upgrade Your Experience?",
+      "subtitle": "Transform your organization with our comprehensive training, consultancy, and assessment services. Let's work together to achieve your goals.",
+      "accessHub": "Access Assessment Hub",
+      "contactDirect": "Contact Us Directly"
+    },
+    
+    "footer": {
+      "tagline": "Transforming Potential into Performance through comprehensive training, consultancy, and research services.",
+      "copyright": "© {{year}} Tenadam Training, Consultancy & Research PLC. All rights reserved."
+    }
+  }
+}

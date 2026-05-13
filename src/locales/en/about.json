@@ -1,0 +1,153 @@
+{
+  "about": {
+    "title": "About Tenadam Training, Consultancy & Research PLC",
+    "subtitle": "Empowering organizations through comprehensive assessment solutions, training programs, and strategic consultancy services across Africa and the Middle East.",
+    "backToHome": "Back to Home",
+    
+    "story": {
+      "heading": "Our Story",
+      "paragraph1": "Established in 2023 through the merger of six experienced professionals, Tenadam Training, Consultancy, and Research PLC has rapidly emerged as a trusted partner for organizations seeking transformative solutions.",
+      "paragraph2": "The name \"Tenadam,\" meaning rue (a healing herb), symbolizes our commitment to being the remedy for business challenges. Just as rue has been used throughout history for its healing properties, we provide healing solutions for organizational challenges.",
+      "localImpact": "Local Impact, Global Vision",
+      "localImpactDesc": "As a company deeply rooted in Ethiopia, we are committed to making a positive and sustainable impact on local communities while expanding our reach across Africa and the Middle East."
+    },
+    
+    "stats": {
+      "founded": "Founded",
+      "foundedValue": "2023",
+      "team": "Team",
+      "teamValue": "6+ Experts",
+      "regions": "Regions",
+      "regionsValue": "Africa & Middle East",
+      "visionYear": "Vision Year",
+      "visionYearValue": "2035"
+    },
+    
+    "mission": {
+      "heading": "Our Mission",
+      "description": "To assist business partners by providing practical solutions to their challenges in a value-adding manner. We aim to support our clients in achieving their goals and overcoming obstacles through our expertise in training, consultancy, and research."
+    },
+    
+    "vision": {
+      "heading": "Our Vision",
+      "description": "To become a notable and preferred company in training, consultancy, and research services in Africa and the Middle East by the year 2035. We envision being the go-to partner for organizations seeking excellence and transformation."
+    },
+    
+    "services": {
+      "heading": "Our Core Services",
+      "subtitle": "Comprehensive solutions designed to drive organizational excellence and sustainable growth",
+      "training": {
+        "title": "Training Services",
+        "items": [
+          "Leadership and Management",
+          "Quality Enhancement and Standardization",
+          "Accounting and Finance",
+          "Marketing and Service Management",
+          "IT, Business, and General Skills"
+        ]
+      },
+      "consultancy": {
+        "title": "Consultancy Services",
+        "items": [
+          "Business Strategy",
+          "Process Optimization",
+          "Change Management",
+          "Organizational Development",
+          "Market Research and Analysis",
+          "Risk Management"
+        ]
+      },
+      "research": {
+        "title": "Research Services",
+        "items": [
+          "Competitive Analysis",
+          "Feasibility Studies",
+          "Industry Research",
+          "Data Analysis and Interpretation",
+          "Custom Research Projects"
+        ]
+      }
+    },
+    
+    "platform": {
+      "heading": "Assessment Hub Platform",
+      "description": "Our cutting-edge Assessment Hub represents the convergence of our expertise in organizational development and technological innovation. Built specifically for modern organizations, it provides comprehensive assessment solutions.",
+      "features": [
+        "OCAI (Organizational Culture Assessment Instrument) integration",
+        "Baldrige Excellence Framework assessments",
+        "Advanced analytics and reporting capabilities",
+        "Multi-user access with role-based permissions"
+      ],
+      "cards": {
+        "realtime": {
+          "title": "Real-time Analytics",
+          "description": "Live insights and reporting"
+        },
+        "multiUser": {
+          "title": "Multi-User Support",
+          "description": "Administrators, facilitators, employees"
+        },
+        "reports": {
+          "title": "Advanced Reports",
+          "description": "Comprehensive data visualization"
+        },
+        "standards": {
+          "title": "Industry Standards",
+          "description": "OCAI & Baldrige frameworks"
+        }
+      }
+    },
+    
+    "whyChoose": {
+      "heading": "Why Choose Tenadam?",
+      "subtitle": "Our unique approach combines local expertise with international best practices",
+      "localGlobal": {
+        "title": "Local Impact, Global Vision",
+        "description": "Deeply rooted in Ethiopia with a vision to serve across Africa and the Middle East, we understand both local challenges and international best practices."
+      },
+      "clientCentric": {
+        "title": "Client-Centric Approach",
+        "description": "We place the success of our clients at the forefront of our operations, ensuring every solution is tailored to meet specific organizational needs and objectives."
+      },
+      "expertise": {
+        "title": "Expertise & Experience",
+        "description": "Our team comprises seasoned professionals with diverse and extensive experience in training, consultancy, and research across various industries and sectors."
+      }
+    },
+    
+    "contact": {
+      "heading": "Get in Touch",
+      "subtitle": "Ready to transform your organization? Let's discuss how we can help you achieve your goals.",
+      "info": "Contact Information",
+      "address": {
+        "title": "Address",
+        "value": "Lem-Hotel Area\nAddis Ababa, Ethiopia"
+      },
+      "phone": {
+        "title": "Phone Numbers",
+        "values": [
+          "+251-911-58-4260",
+          "+251-912-44-2502",
+          "+251-993-51-8990"
+        ]
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@tenadamconsulting.com"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "value": "Monday - Friday\n8:30 AM - 5:30 PM"
+      },
+      "readyToStart": "Ready to Get Started?",
+      "startDescription": "Whether you're looking to assess your organizational culture, implement the Baldrige framework, or develop your team through comprehensive training programs, we're here to help.",
+      "accessHub": "Access Assessment Hub",
+      "learnMore": "Learn More About Our Services"
+    },
+    
+    "footer": {
+      "tagline": "Empowering organizations through comprehensive assessment solutions, training programs, and strategic consultancy services.",
+      "copyright": "© {{year}} Tenadam Training, Consultancy & Research PLC. All rights reserved."
+    }
+  }
+}

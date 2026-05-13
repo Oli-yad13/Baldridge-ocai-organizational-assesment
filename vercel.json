@@ -1,0 +1,27 @@
+{
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "NEXTAUTH_SECRET": "@nextauth_secret",
+    "NEXTAUTH_URL": "@nextauth_url",
+    "EMAIL_SERVER_HOST": "@email_server_host",
+    "EMAIL_SERVER_PORT": "@email_server_port",
+    "EMAIL_SERVER_USER": "@email_server_user",
+    "EMAIL_SERVER_PASSWORD": "@email_server_password",
+    "EMAIL_FROM": "@email_from",
+    "GOOGLE_CLIENT_ID": "@google_client_id",
+    "GOOGLE_CLIENT_SECRET": "@google_client_secret",
+    "RATE_LIMIT_MAX": "@rate_limit_max",
+    "RATE_LIMIT_WINDOW_MS": "@rate_limit_window_ms",
+    "IP_HASH_SALT": "@ip_hash_salt"
+  },
+  "build": {
+    "env": {
+      "DATABASE_URL": "@database_url"
+    }
+  }
+}

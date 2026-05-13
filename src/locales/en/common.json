@@ -1,0 +1,134 @@
+{
+  "app": {
+    "name": "Tenadam Assessment Hub",
+    "tagline": "Professional OCAI & Baldrige Assessments",
+    "description": "Empowering organizations with data-driven cultural insights"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "dashboard": "Dashboard",
+    "assessments": "Assessments",
+    "reports": "Reports",
+    "settings": "Settings",
+    "signIn": "Sign In",
+    "signOut": "Sign Out"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "download": "Download",
+    "upload": "Upload",
+    "view": "View",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "organization": "Organization",
+    "role": "Role",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "passwordMismatch": "Passwords do not match",
+    "minLength": "Minimum {{min}} characters required",
+    "maxLength": "Maximum {{max}} characters allowed",
+    "generic": "An error occurred. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "notFound": "The requested resource was not found.",
+    "serverError": "Server error. Please try again later."
+  },
+  "footer": {
+    "copyright": "© {{year}} Tenadam Assessment Hub. All rights reserved.",
+    "builtWith": "Built with excellence for organizational development"
+  },
+  "home": {
+    "hero": {
+      "title1": "Transform Your Organization with",
+      "title2": "Data-Driven Assessments",
+      "description": "A comprehensive assessment platform designed by Tenadam Training, Consultancy & Research PLC to help organizations assess culture, performance, and excellence. Powered by proven frameworks including OCAI and Baldrige.",
+      "cta": "Get Started"
+    },
+    "features": {
+      "title": "Powerful Features for Organizations",
+      "multiUser": {
+        "title": "Multi-User Access",
+        "description": "System administrators, facilitators, and employees - each with tailored access and permissions."
+      },
+      "orgManagement": {
+        "title": "Organization Management",
+        "description": "Create and manage multiple organizations with custom branding and assessment access."
+      },
+      "secureKeys": {
+        "title": "Secure Access Keys",
+        "description": "Generate unique access codes for employees to participate in assessments anonymously and securely."
+      },
+      "analytics": {
+        "title": "Real-Time Analytics",
+        "description": "Track participation, view aggregate results, and gain insights with comprehensive reporting tools."
+      },
+      "ocai": {
+        "title": "OCAI Assessment",
+        "description": "Measure organizational culture across 6 dimensions using the proven Competing Values Framework."
+      },
+      "baldrige": {
+        "title": "Baldrige Excellence",
+        "description": "Evaluate organizational performance against the Malcolm Baldrige National Quality Award criteria."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Sign In",
+        "description": "Administrators and facilitators sign in with credentials. Employees use secure access keys."
+      },
+      "step2": {
+        "title": "Take Assessment",
+        "description": "Choose from available assessments (OCAI, Baldrige) and complete them at your own pace."
+      },
+      "step3": {
+        "title": "View Results",
+        "description": "Access comprehensive reports, aggregate data, and actionable insights for your organization."
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Organization?",
+      "description": "Join organizations worldwide using Tenadam's assessment platform to drive meaningful change and organizational excellence.",
+      "button": "Get Started Today"
+    }
+  },
+  "footer": {
+    "platform": "Platform",
+    "legal": "Legal",
+    "tagline": "Empowering organizations through data-driven assessments and insights.",
+    "copyright": "© {{year}} Tenadam Training, Consultancy & Research PLC. All rights reserved."
+  }
+}

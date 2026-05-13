@@ -1,0 +1,499 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  industry  String?
+  size      String?
+  country   String?
+  logoUrl   String?
+  settings  Json?
+  primaryColor String? @default("#3B82F6")
+  dataRetentionDays Int @default(2555)
+  privacyPolicyUrl String?
+  consentVersion String @default("1.0")
+  subscribedAssessments String @default("OCAI,BALDRIGE")
+  isActive  Boolean  @default(true)
+  createdById String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  users     User[]
+  surveys   Survey[]
+  reports   Report[]
+  accessKeys AccessKey[]
+  assessmentCredentials AssessmentCredential[]
+  createdBy User? @relation("CreatedBy", fields: [createdById], references: [id], onDelete: SetNull)
+
+  @@map("organizations")
+}
+
+model User {
+  id             String   @id @default(cuid())
+  name           String
+  email          String?  @unique
+  password       String?
+  role           Role     @default(EMPLOYEE)
+  organizationId String?
+  accessKeyUsed  String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  lastLoginAt    DateTime?
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  responses    Response[]
+  comments     Comment[]
+  workshops    Workshop[]
+  createdOrganizations Organization[] @relation("CreatedBy")
+  baldrigeResponses BaldrigeResponse[]
+  baldrigeProgress BaldrigeProgress[]
+  featuredSurveys FeaturedSurvey[]
+
+  @@map("users")
+}
+
+model Survey {
+  id                     String    @id @default(cuid())
+  organizationId         String
+  title                  String
+  assessmentType         AssessmentType @default(OCAI)
+  status                 SurveyStatus @default(DRAFT)
+  openAt                 DateTime?
+  closeAt                DateTime?
+  allowAnonymous         Boolean   @default(false)
+  requireOrgEmailDomain  Boolean   @default(true)
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  invitations  Invitation[]
+  responses    Response[]
+  comments     Comment[]
+  aggregates   Aggregate[]
+  reports      Report[]
+  workshops    Workshop[]
+  baldrigeResponses BaldrigeResponse[]
+  baldrigeProgress BaldrigeProgress[]
+
+  @@map("surveys")
+}
+
+model Invitation {
+  id        String    @id @default(cuid())
+  surveyId  String
+  email     String
+  token     String    @unique
+  claimedAt DateTime?
+  createdAt DateTime  @default(now())
+
+  survey Survey @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+
+  @@map("invitations")
+}
+
+model Response {
+  id              String    @id @default(cuid())
+  surveyId        String?
+  userId          String?
+  demographics    Json?
+  nowScores       Json
+  preferredScores Json
+  submittedAt     DateTime  @default(now())
+  ipHash          String
+  consentGiven    Boolean   @default(false)
+  consentTimestamp DateTime?
+  consentVersion  String?
+  anonymousMode   Boolean   @default(false)
+  credentialEmail String?
+  isComplete      Boolean   @default(false)
+  progressData    Json?
+  lastSavedAt     DateTime?
+
+  survey  Survey?  @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+  user    User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+  comments Comment[]
+
+  @@index([credentialEmail])
+  @@map("responses")
+}
+
+model Aggregate {
+  id                    String  @id @default(cuid())
+  surveyId              String
+  sliceKey              String
+  sliceLabel            String
+  currentClan           Float
+  currentAdhocracy      Float
+  currentMarket         Float
+  currentHierarchy      Float
+  preferredClan         Float
+  preferredAdhocracy    Float
+  preferredMarket       Float
+  preferredHierarchy    Float
+  delta                 Json
+  n                     Int
+  createdAt             DateTime @default(now())
+
+  survey Survey @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+
+  @@map("aggregates")
+}
+
+model Comment {
+  id         String   @id @default(cuid())
+  surveyId   String
+  responseId String?
+  text       String
+  createdAt  DateTime @default(now())
+  userId   String?
+
+  survey   Survey   @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+  response Response? @relation(fields: [responseId], references: [id], onDelete: Cascade)
+  user     User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@map("comments")
+}
+
+model Report {
+  id             String      @id @default(cuid())
+  surveyId       String
+  kind           ReportKind
+  payload        Json
+  createdAt      DateTime    @default(now())
+  organizationId String
+
+  survey       Survey       @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@map("reports")
+}
+
+model AccessKey {
+  id             String   @id @default(cuid())
+  key            String   @unique
+  organizationId String
+  assessmentTypes String @default("OCAI,BALDRIGE")
+  maxUses        Int?
+  usageCount     Int      @default(0)
+  isActive       Boolean  @default(true)
+  expiresAt      DateTime?
+  description    String?
+  createdBy      String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@map("access_keys")
+}
+
+model AssessmentCredential {
+  id              String    @id @default(cuid())
+  email           String
+  password        String
+  organizationId  String
+  assessmentTypes String    @default("OCAI,BALDRIGE")
+  isActive        Boolean   @default(true)
+  expiresAt       DateTime
+  batchId         String
+  batchName       String?
+  lastUsedAt      DateTime?
+  loginCount      Int       @default(0)
+  createdBy       String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  organization    Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  
+  @@unique([email, batchId])
+  @@index([email])
+  @@index([batchId])
+  @@index([organizationId])
+  @@map("assessment_credentials")
+}
+
+model Workshop {
+  id            String   @id @default(cuid())
+  surveyId      String
+  title         String
+  description   String?
+  status        String   @default("draft")
+  facilitatorId String?
+  scheduledAt   DateTime?
+  completedAt   DateTime?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  survey      Survey   @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+  facilitator User?    @relation(fields: [facilitatorId], references: [id])
+  sessions    WorkshopSession[]
+  actions     Action[]
+
+  @@map("workshops")
+}
+
+model WorkshopSession {
+  id          String    @id @default(cuid())
+  workshopId  String
+  title       String
+  description String?
+  status      String    @default("planned")
+  startedAt   DateTime?
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  
+  workshop     Workshop  @relation(fields: [workshopId], references: [id], onDelete: Cascade)
+  pinnedCharts PinnedChart[]
+  themes       Theme[]
+  actions      Action[]
+
+  @@map("workshop_sessions")
+}
+
+model PinnedChart {
+  id        String          @id @default(cuid())
+  sessionId String
+  chartType String
+  title     String
+  data      Json
+  position  Int
+  createdAt DateTime        @default(now())
+
+  session   WorkshopSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@map("pinned_charts")
+}
+
+model Theme {
+  id          String          @id @default(cuid())
+  sessionId   String
+  title       String
+  description String
+  category    String?
+  priority    String          @default("medium")
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+  
+  session     WorkshopSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  actions     Action[]
+
+  @@map("themes")
+}
+
+model Action {
+  id          String    @id @default(cuid())
+  workshopId  String
+  sessionId   String?
+  themeId     String?
+  title       String
+  description String?
+  owner       String?
+  status      String    @default("planned")
+  priority    String    @default("medium")
+  dueDate     DateTime?
+  completedAt DateTime?
+  successMetrics Json?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  workshop    Workshop  @relation(fields: [workshopId], references: [id], onDelete: Cascade)
+  session     WorkshopSession? @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  theme       Theme?    @relation(fields: [themeId], references: [id], onDelete: SetNull)
+
+  @@map("actions")
+}
+
+model Intervention {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  category    String
+  quadrant    String
+  direction   String
+  effort      String   @default("medium")
+  impact      String   @default("medium")
+  duration    String?
+  resources   String?
+  examples    Json?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("interventions")
+}
+
+model BaldrigeCategory {
+  id            String                @id @default(cuid())
+  name          String                @unique
+  displayOrder  Int                   @unique
+  description   String?
+  totalPoints   Int                   @default(0)
+  subcategories BaldrigeSubcategory[]
+  createdAt     DateTime              @default(now())
+  updatedAt     DateTime              @updatedAt
+
+  @@map("baldrige_categories")
+}
+
+model BaldrigeSubcategory {
+  id           String             @id @default(cuid())
+  name         String
+  displayOrder Int
+  description  String?
+  points       Int                @default(0)
+  categoryId   String
+  category     BaldrigeCategory   @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  questions    BaldrigeQuestion[]
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+
+  @@unique([categoryId, displayOrder])
+  @@map("baldrige_subcategories")
+}
+
+model BaldrigeQuestion {
+  id            String              @id @default(cuid())
+  itemCode      String              @unique
+  questionText  String
+  orderIndex    Int
+  instructions  String?
+  metadata      Json?
+  subcategoryId String
+  subcategory   BaldrigeSubcategory @relation(fields: [subcategoryId], references: [id], onDelete: Cascade)
+  responses     BaldrigeResponse[]
+  createdAt     DateTime            @default(now())
+  updatedAt     DateTime            @updatedAt
+
+  @@unique([subcategoryId, orderIndex])
+  @@map("baldrige_questions")
+}
+
+model BaldrigeResponse {
+  id           String           @id @default(cuid())
+  userId       String
+  user         User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId   String
+  question     BaldrigeQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  surveyId     String?
+  survey       Survey?          @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+  responseText String?
+  timeSpent    Int              @default(0)
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+
+  @@unique([userId, questionId, surveyId])
+  @@index([userId, surveyId])
+  @@map("baldrige_responses")
+}
+
+model BaldrigeProgress {
+  id                  String   @id @default(cuid())
+  userId              String
+  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  surveyId            String?
+  survey              Survey?  @relation(fields: [surveyId], references: [id], onDelete: Cascade)
+  completedQuestions  Json     @default("[]")
+  isCompleted         Boolean  @default(false)
+  completedAt         DateTime?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@unique([userId, surveyId])
+  @@map("baldrige_progress")
+}
+
+model BaldrigeSubmission {
+  id                String   @id @default(cuid())
+  assessmentId      String   @unique
+  userId            String
+  organizationId    String?
+  surveyId          String?
+  accessKey         String?
+  startedAt         DateTime @default(now())
+  submittedAt       DateTime?
+  isCompleted       Boolean  @default(false)
+  totalQuestions    Int      @default(0)
+  answeredQuestions Int      @default(0)
+  metadata          Json?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@index([organizationId])
+  @@index([userId])
+  @@index([assessmentId])
+  @@map("baldrige_submissions")
+}
+
+enum Role {
+  SYSTEM_ADMIN
+  FACILITATOR
+  EMPLOYEE
+}
+
+enum SurveyStatus {
+  DRAFT
+  OPEN
+  CLOSED
+}
+
+enum ReportKind {
+  ORG
+  TEAM
+  CUSTOM_SLICE
+}
+
+model FetanPayResponse {
+  id             String   @id @default(cuid())
+  respondentType String   // "EMPLOYER" or "EMPLOYEE"
+  data           Json     // Stores the full response object
+  isCompleted    Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("fetan_pay_responses")
+}
+
+enum AssessmentType {
+  OCAI
+  BALDRIGE
+  FETAN_PAY
+  SANKOFA
+}
+
+model SankofaResponse {
+  id             String   @id @default(cuid())
+  respondentType String   @default("CSO")
+  data           Json
+  isCompleted    Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("sankofa_responses")
+}
+
+model FeaturedSurvey {
+  id             String         @id @default(cuid())
+  assessmentType AssessmentType @unique
+  title          String
+  description    String?
+  content        Json           // Active content
+  pendingContent Json?          // Content waiting for approval
+  isActive       Boolean        @default(true)
+  facilitatorId  String?
+  facilitator    User?          @relation(fields: [facilitatorId], references: [id])
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  @@map("featured_surveys")
+}
+

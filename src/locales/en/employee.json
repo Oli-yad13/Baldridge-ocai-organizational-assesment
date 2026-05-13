@@ -1,0 +1,72 @@
+{
+  "employee": {
+    "assessmentPortal": "Assessment Portal",
+    "welcome": "Welcome, {{name}}!",
+    "selectAssessment": "Select an assessment below to begin. Your responses will help {{org}} improve and grow.",
+    "ocaiTitle": "OCAI Culture Assessment",
+    "ocaiDescription": "Assess your organization's culture across 6 key dimensions using the Competing Values Framework.",
+    "ocaiDuration": "15-20 minutes",
+    "baldrigeTitle": "Baldrige Excellence Assessment",
+    "baldrigeDescription": "Evaluate organizational excellence across 7 categories with the comprehensive Baldrige framework.",
+    "baldrigeDuration": "45-60 minutes",
+    "completed": "Completed",
+    "progress": "Progress",
+    "viewResults": "View Results",
+    "viewAnswers": "View Answers",
+    "continue": "Continue",
+    "startAssessment": "Start Assessment",
+    "noAssessments": "No assessments available with your access key.",
+    "loadingAssessments": "Loading assessments...",
+    "importantInfo": "Important Information",
+    "infoOnce": "Each assessment can only be taken once - no retakes allowed",
+    "infoConfidential": "Your responses are confidential and will be aggregated with others",
+    "infoAutoSave": "You can complete assessments in one sitting or return later (auto-save enabled)",
+    "infoHonest": "Answer honestly - there are no right or wrong answers",
+    "infoCompleted": "Once completed, you can view your results but cannot change answers"
+  },
+  "dashboard": {
+    "title": "Employee Dashboard",
+    "welcome": "Welcome, {{name}}",
+    "subtitle": "Your Assessment Hub",
+    "organization": "Organization"
+  },
+  "assessments": {
+    "title": "My Assessments",
+    "available": "Available Assessments",
+    "completed": "Completed Assessments",
+    "inProgress": "In Progress",
+    "notStarted": "Not Started",
+    "startAssessment": "Start Assessment",
+    "continueAssessment": "Continue Assessment",
+    "viewResults": "View Results",
+    "noAssessments": "No Assessments Available",
+    "noAssessmentsDesc": "You don't have any assessments assigned yet. Please check back later or contact your facilitator.",
+    "ocai": {
+      "title": "OCAI Assessment",
+      "description": "Organizational Culture Assessment Instrument - Understand your organization's culture",
+      "duration": "15-20 minutes"
+    },
+    "baldrige": {
+      "title": "Baldrige Assessment",
+      "description": "Excellence Framework - Evaluate organizational performance",
+      "duration": "30-45 minutes"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "accountSettings": "Account Settings",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "newAssessment": "New Assessment Available",
+    "assessmentDue": "Assessment Due Soon",
+    "resultsReady": "Results Available",
+    "markAllRead": "Mark All as Read",
+    "noNotifications": "No New Notifications"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "employee": {
+    "assessmentPortal": "የግምገማ መግቢያ",
+    "welcome": "እንኳን ደህና መጡ፣ {{name}}!",
+    "selectAssessment": "ለመጀመር ከዚህ በታች ግምገማ ይምረጡ። ምላሾችዎ {{org}} እንዲሻሻል እና እንዲያድግ ይረዳሉ።",
+    "ocaiTitle": "የOCAI ባህል ግምገማ",
+    "ocaiDescription": "የድርጅትዎን ባህል በ6 ቁልፍ መስኮች በመጠቀም በውድድር እሴቶች ማዕቀፍ ይገምግሙ።",
+    "ocaiDuration": "15-20 ደቂቃዎች",
+    "baldrigeTitle": "የባልድሪጅ ተቋማዊ ልዕቀት ግምገማ",
+    "baldrigeDescription": "በአጠቃላይ የባልድሪጅ ማዕቀፍ በ7 ምድቦች የድርጅቶን ልዕቀት ይገምግሙ።",
+    "baldrigeDuration": "45-60 ደቂቃዎች",
+    "completed": "ተጠናቋል",
+    "progress": "ሂደት",
+    "viewResults": "ውጤቶችን ተመልከት",
+    "viewAnswers": "መልሶችን ተመልከት",
+    "continue": "ቀጥል",
+    "startAssessment": "ግምገማ ጀምር",
+    "noAssessments": "በመግቢያ ቁልፍዎ ምንም ግምገማዎች አይገኙም።",
+    "loadingAssessments": "ግምገማዎችን በመጫን ላይ...",
+    "importantInfo": "አስፈላጊ መረጃ",
+    "infoOnce": "እያንዳንዱ ግምገማ አንድ ጊዜ ብቻ ሊወሰድ ይችላል - እንደገና መውሰድ አይፈቀድም",
+    "infoConfidential": "ምላሾችዎ ምስጢራዊ ናቸው እና ከሌሎች ጋር ይጣመራሉ",
+    "infoAutoSave": "ግምገማዎችን በአንድ ክፍለ ጊዜ ማጠናቀቅ ወይም በኋላ መመለስ ይችላሉ (ስርዓቱ መረጃውን ያስቀምጣል)",
+    "infoHonest": "በታማኝነት ይመልሱ - ትክክለኛ ወይም የተሳሳቱ መልሶች የሉም",
+    "infoCompleted": "አንዴ ከተጠናቀቀ፣ ውጤቶችዎን ማየት ይችላሉ ግን መልሶችን መቀየር አይችሉም"
+  },
+  "dashboard": {
+    "title": "የሰራተኛ መቆጣጠሪያ ሰሌዳ",
+    "welcome": "እንኳን ደህና መጡ፣ {{name}}",
+    "subtitle": "የእርስዎ የግምገማ ማእከል",
+    "organization": "ድርጅት"
+  },
+  "assessments": {
+    "title": "የእኔ ግምገማዎች",
+    "available": "የተገኙ ግምገማዎች",
+    "completed": "የተጠናቀቁ ግምገማዎች",
+    "inProgress": "በሂደት ላይ",
+    "notStarted": "አልተጀመረም",
+    "startAssessment": "ግምገማ ጀምር",
+    "continueAssessment": "ግምገማ ቀጥል",
+    "viewResults": "ውጤቶችን ተመልከት",
+    "noAssessments": "ምንም የተገኙ ግምገማዎች የሉም",
+    "noAssessmentsDesc": "ገና የተመደቡ ግምገማዎች የሉዎትም። እባክዎ በኋላ ይመለከቱ ወይም አመቻችዎን ያነጋግሩ።",
+    "ocai": {
+      "title": "የOCAI ግምገማ",
+      "description": "የድርጅት ባህል ግምገማ መሳሪያ - የድርጅትዎን ባህል ይረዱ",
+      "duration": "15-20 ደቂቃዎች"
+    },
+    "baldrige": {
+      "title": "የባልድሪጅ ግምገማ",
+      "description": "የልዕቀት ማዕቀፍ - የድርጅት አፈጻጸም ይገምግሙ",
+      "duration": "30-45 ደቂቃዎች"
+    }
+  },
+  "profile": {
+    "title": "የእኔ መገለጫ",
+    "personalInfo": "የግል መረጃ",
+    "accountSettings": "የመለያ ቅንብሮች",
+    "changePassword": "የይለፍ ቃል ይቀይሩ",
+    "currentPassword": "የአሁኑ የይለፍ ቃል",
+    "newPassword": "አዲስ የይለፍ ቃል",
+    "confirmPassword": "አዲስ የይለፍ ቃል ያረጋግጡ"
+  },
+  "notifications": {
+    "title": "ማሳወቂያዎች",
+    "newAssessment": "አዲስ ግምገማ ተገኝቷል",
+    "assessmentDue": "ግምገማ በቅርቡ ይደርሳል",
+    "resultsReady": "ውጤቶች ተገኝተዋል",
+    "markAllRead": "ሁሉንም እንደተነበበ ምልክት አድርግ",
+    "noNotifications": "አዲስ ማሳወቂያዎች የሉም"
+  }
+}

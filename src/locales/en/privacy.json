@@ -1,0 +1,185 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy and data security are fundamental to our assessment platform. Learn how we protect and handle your information.",
+    "lastUpdated": "Last updated: January 2024",
+    "glance": {
+      "title": "Privacy at a Glance",
+      "secure": {
+        "title": "Secure Data Handling",
+        "description": "All assessment data is encrypted and stored securely"
+      },
+      "anonymous": {
+        "title": "Anonymous Responses",
+        "description": "Individual responses are anonymized for privacy protection"
+      },
+      "minimization": {
+        "title": "Data Minimization",
+        "description": "We collect only what's necessary for assessments"
+      },
+      "rights": {
+        "title": "Your Rights",
+        "description": "You have full control over your personal data"
+      }
+    },
+    "introduction": {
+      "title": "1. Introduction",
+      "p1": "Tenadam Training, Consultancy & Research PLC (\"we,\" \"our,\" or \"us\") operates the Assessment Hub platform (the \"Service\"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our organizational assessment platform.",
+      "p2": "We are committed to protecting your privacy and ensuring the security of your personal information. This policy applies to all users of our assessment platform, including administrators, facilitators, and assessment participants."
+    },
+    "informationCollected": {
+      "title": "2. Information We Collect",
+      "personal": {
+        "title": "2.1 Personal Information",
+        "items": [
+          "Account Information: Name, email address, organization affiliation, role",
+          "Contact Information: Business address, phone number (for administrators)",
+          "Authentication Data: Login credentials and access keys",
+          "Profile Information: Job title, department, assessment preferences"
+        ]
+      },
+      "assessment": {
+        "title": "2.2 Assessment Data",
+        "items": [
+          "Response Data: Assessment answers and scores (anonymized for individual responses)",
+          "Metadata: Assessment completion times, progress tracking",
+          "Aggregate Data: Group statistics and organizational insights",
+          "Consent Records: Your agreement to participate in assessments"
+        ]
+      },
+      "technical": {
+        "title": "2.3 Technical Information",
+        "items": [
+          "Usage Data: Platform interactions, feature usage, session duration",
+          "Device Information: Browser type, operating system, IP address (hashed)",
+          "Log Data: System logs, error reports, performance metrics"
+        ]
+      }
+    },
+    "howWeUse": {
+      "title": "3. How We Use Your Information",
+      "primary": {
+        "title": "3.1 Primary Purposes",
+        "items": [
+          "Provide and maintain our assessment platform services",
+          "Process and analyze assessment responses for organizational insights",
+          "Generate reports and analytics for authorized users",
+          "Manage user accounts and access permissions",
+          "Ensure platform security and prevent fraud"
+        ]
+      },
+      "secondary": {
+        "title": "3.2 Secondary Purposes",
+        "items": [
+          "Improve our platform functionality and user experience",
+          "Conduct research and development for assessment methodologies",
+          "Provide customer support and technical assistance",
+          "Comply with legal obligations and regulatory requirements"
+        ]
+      }
+    },
+    "sharing": {
+      "title": "4. Information Sharing and Disclosure",
+      "withinOrg": {
+        "title": "4.1 Within Your Organization",
+        "p1": "Assessment results are shared only with authorized personnel within your organization, such as administrators and designated facilitators. Individual responses remain anonymous unless explicitly consented otherwise."
+      },
+      "serviceProviders": {
+        "title": "4.2 Service Providers",
+        "p1": "We may share information with trusted third-party service providers who assist in platform operations, including cloud hosting, data analytics, and customer support. All service providers are bound by strict confidentiality agreements."
+      },
+      "legal": {
+        "title": "4.3 Legal Requirements",
+        "p1": "We may disclose information when required by law, legal process, or to protect our rights, property, or safety, or that of our users or the public."
+      }
+    },
+    "security": {
+      "title": "5. Data Security",
+      "measuresTitle": "Security Measures",
+      "measures": [
+        "End-to-end encryption for data transmission and storage",
+        "Regular security audits and vulnerability assessments",
+        "Access controls and role-based permissions",
+        "Secure data centers with physical and logical security",
+        "Employee training on data protection best practices"
+      ],
+      "p1": "While we implement industry-standard security measures, no method of transmission over the internet or electronic storage is 100% secure. We continuously work to improve our security practices and respond to emerging threats."
+    },
+    "retention": {
+      "title": "6. Data Retention",
+      "periods": {
+        "title": "6.1 Retention Periods",
+        "items": [
+          "Account Information: Retained while your account is active and for 3 years after closure",
+          "Assessment Data: Retained for 7 years for research and organizational analysis",
+          "Technical Logs: Retained for 1 year for security and performance monitoring",
+          "Communication Records: Retained for 3 years for customer support purposes"
+        ]
+      },
+      "deletion": {
+        "title": "6.2 Data Deletion",
+        "p1": "Upon request or account closure, we will delete your personal information within 30 days, except where retention is required by law or for legitimate business purposes."
+      }
+    },
+    "yourRights": {
+      "title": "7. Your Privacy Rights",
+      "access": {
+        "title": "Access & Portability",
+        "description": "Request a copy of your personal data and assessment results"
+      },
+      "correction": {
+        "title": "Correction",
+        "description": "Update or correct inaccurate personal information"
+      },
+      "deletion": {
+        "title": "Deletion",
+        "description": "Request deletion of your personal data"
+      },
+      "restriction": {
+        "title": "Restriction",
+        "description": "Limit how we process your personal information"
+      },
+      "p1": "To exercise these rights, please contact us at privacy@tenadamconsulting.com. We will respond to your request within 30 days."
+    },
+    "cookies": {
+      "title": "8. Cookies and Tracking Technologies",
+      "essential": {
+        "title": "8.1 Essential Cookies",
+        "p1": "We use essential cookies for platform functionality, authentication, and security. These cookies are necessary for the platform to operate properly."
+      },
+      "analytics": {
+        "title": "8.2 Analytics Cookies",
+        "p1": "We use analytics cookies to understand platform usage and improve user experience. These cookies collect aggregated, anonymized data."
+      },
+      "management": {
+        "title": "8.3 Cookie Management",
+        "p1": "You can manage cookie preferences through your browser settings. Note that disabling essential cookies may affect platform functionality."
+      }
+    },
+    "transfers": {
+      "title": "9. International Data Transfers",
+      "p1": "Your information may be transferred to and processed in countries other than your country of residence. We ensure appropriate safeguards are in place for international transfers, including standard contractual clauses and adequacy decisions."
+    },
+    "children": {
+      "title": "10. Children's Privacy",
+      "p1": "Our platform is designed for organizational use and is not intended for individuals under 16 years of age. We do not knowingly collect personal information from children under 16. If you become aware that a child has provided us with personal information, please contact us immediately."
+    },
+    "changes": {
+      "title": "11. Changes to This Privacy Policy",
+      "p1": "We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the \"Last updated\" date. Your continued use of the platform after such changes constitutes acceptance of the updated policy."
+    },
+    "contact": {
+      "title": "12. Contact Us",
+      "officer": "Data Protection Officer",
+      "email": "Email: privacy@tenadamconsulting.com",
+      "phone": "Phone: +251-993-51-8990",
+      "address1": "Address: Tenadam Training, Consultancy & Research PLC",
+      "address2": "Addis Ababa, Ethiopia",
+      "p1": "If you have any questions about this Privacy Policy or our data practices, please don't hesitate to contact us. We are committed to addressing your concerns and ensuring your privacy rights are respected."
+    },
+    "footer": {
+      "backToHome": "Back to Home",
+      "terms": "Terms of Service"
+    }
+  }
+}

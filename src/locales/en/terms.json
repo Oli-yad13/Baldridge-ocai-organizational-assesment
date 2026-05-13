@@ -1,0 +1,225 @@
+{
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "These terms govern your use of our assessment platform. Please read them carefully before using our services.",
+    "lastUpdated": "Last updated: January 2024",
+    "importantNotice": {
+      "title": "Important Notice",
+      "description": "By accessing or using our Assessment Hub platform, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services."
+    },
+    "keyTerms": {
+      "title": "Key Terms Overview",
+      "userResponsibilities": {
+        "title": "User Responsibilities",
+        "description": "Provide accurate information and use the platform appropriately"
+      },
+      "dataProtection": {
+        "title": "Data Protection",
+        "description": "Your assessment data is protected and used responsibly"
+      },
+      "organizationalUse": {
+        "title": "Organizational Use",
+        "description": "Platform designed for legitimate organizational assessment purposes"
+      },
+      "assessmentIntegrity": {
+        "title": "Assessment Integrity",
+        "description": "Maintain the integrity and confidentiality of assessments"
+      }
+    },
+    "agreement": {
+      "title": "1. Agreement to Terms",
+      "p1": "These Terms of Service (\"Terms\") constitute a legally binding agreement between you and Tenadam Training, Consultancy & Research PLC (\"Company,\" \"we,\" \"our,\" or \"us\") regarding your use of the Assessment Hub platform and services.",
+      "p2": "By accessing, browsing, or using our platform, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy."
+    },
+    "serviceDescription": {
+      "title": "2. Description of Service",
+      "platformOverview": {
+        "title": "2.1 Platform Overview",
+        "intro": "The Assessment Hub is a comprehensive organizational assessment platform that provides:",
+        "items": [
+          "Organizational Culture Assessment (OCAI) tools",
+          "Baldrige Excellence Framework assessments",
+          "Multi-user access management for organizations",
+          "Secure assessment data collection and analysis",
+          "Reporting and analytics capabilities",
+          "Data export and visualization tools"
+        ]
+      },
+      "userRoles": {
+        "title": "2.2 User Roles",
+        "items": [
+          "Administrators: Full platform access, user management, organization settings",
+          "Facilitators: Assessment management, participant access, report generation",
+          "Employees/Participants: Assessment participation, response submission"
+        ]
+      }
+    },
+    "accounts": {
+      "title": "3. User Accounts and Registration",
+      "accountCreation": {
+        "title": "3.1 Account Creation",
+        "intro": "To access certain features of the platform, you must create an account. You agree to:",
+        "items": [
+          "Provide accurate, current, and complete information",
+          "Maintain and update your information as necessary",
+          "Maintain the security of your password and account",
+          "Accept responsibility for all activities under your account",
+          "Notify us immediately of any unauthorized use"
+        ]
+      },
+      "accountTypes": {
+        "title": "3.2 Account Types",
+        "items": [
+          "Credential-based accounts: For administrators and facilitators",
+          "Access key accounts: For assessment participants",
+          "Demo accounts: For testing and evaluation purposes"
+        ]
+      }
+    },
+    "acceptableUse": {
+      "title": "4. Acceptable Use Policy",
+      "permitted": {
+        "title": "4.1 Permitted Uses",
+        "intro": "You may use the platform for:",
+        "items": [
+          "Legitimate organizational assessment purposes",
+          "Conducting authorized organizational culture evaluations",
+          "Baldrige excellence framework assessments",
+          "Generating reports for authorized stakeholders",
+          "Training and development activities"
+        ]
+      },
+      "prohibited": {
+        "title": "4.2 Prohibited Uses",
+        "intro": "You may NOT use the platform to:",
+        "items": [
+          "Violate any applicable laws or regulations",
+          "Infringe on intellectual property rights",
+          "Harass, abuse, or harm other users",
+          "Attempt to gain unauthorized access to the platform",
+          "Interfere with platform functionality or security",
+          "Use automated systems to access the platform",
+          "Collect user information without authorization",
+          "Share assessment responses inappropriately",
+          "Use the platform for commercial purposes without permission"
+        ]
+      }
+    },
+    "data": {
+      "title": "5. Assessment Data and Privacy",
+      "ownership": {
+        "title": "5.1 Data Ownership",
+        "p1": "Assessment data belongs to the organization that commissioned the assessment. Individual responses are anonymized and aggregated for privacy protection."
+      },
+      "usage": {
+        "title": "5.2 Data Usage",
+        "items": [
+          "Assessment data is used solely for organizational analysis and reporting",
+          "Individual responses remain confidential and anonymous",
+          "Aggregate data may be used for platform improvement and research",
+          "Data sharing is limited to authorized organizational personnel"
+        ]
+      },
+      "consent": {
+        "title": "5.3 Consent",
+        "p1": "By participating in assessments, you consent to the collection, processing, and use of your responses as described in our Privacy Policy."
+      }
+    },
+    "ip": {
+      "title": "6. Intellectual Property Rights",
+      "platformContent": {
+        "title": "6.1 Platform Content",
+        "p1": "The Assessment Hub platform, including its design, functionality, and content, is owned by Tenadam Training, Consultancy & Research PLC and protected by intellectual property laws."
+      },
+      "frameworks": {
+        "title": "6.2 Assessment Frameworks",
+        "items": [
+          "OCAI (Organizational Culture Assessment Instrument) is used under license",
+          "Baldrige Excellence Framework is used in accordance with NIST guidelines",
+          "Custom assessment content may be subject to additional licensing terms"
+        ]
+      },
+      "userContent": {
+        "title": "6.3 User Content",
+        "p1": "You retain ownership of your assessment responses and organizational data. By using the platform, you grant us a limited license to process and analyze your data for service delivery purposes."
+      }
+    },
+    "availability": {
+      "title": "7. Service Availability",
+      "uptime": {
+        "title": "7.1 Uptime Commitment",
+        "p1": "We strive to maintain high platform availability but do not guarantee uninterrupted service. Scheduled maintenance will be communicated in advance when possible."
+      },
+      "modifications": {
+        "title": "7.2 Service Modifications",
+        "p1": "We reserve the right to modify, suspend, or discontinue any part of the platform with reasonable notice to users."
+      },
+      "backup": {
+        "title": "7.3 Data Backup",
+        "p1": "We implement regular data backup procedures, but users are responsible for maintaining their own copies of important data."
+      }
+    },
+    "liability": {
+      "title": "8. Limitation of Liability",
+      "notice": {
+        "title": "Important Legal Notice",
+        "p1": "To the maximum extent permitted by law, Tenadam Training, Consultancy & Research PLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or business opportunities, arising from your use of the platform."
+      },
+      "p1": "Our total liability for any claims arising from these Terms or your use of the platform shall not exceed the amount you paid for the service in the 12 months preceding the claim."
+    },
+    "indemnification": {
+      "title": "9. Indemnification",
+      "p1": "You agree to indemnify and hold harmless Tenadam Training, Consultancy & Research PLC from any claims, damages, or expenses arising from your use of the platform, violation of these Terms, or infringement of any third-party rights."
+    },
+    "termination": {
+      "title": "10. Termination",
+      "byYou": {
+        "title": "10.1 Termination by You",
+        "p1": "You may terminate your account at any time by contacting our support team. Upon termination, your access to the platform will be discontinued."
+      },
+      "byUs": {
+        "title": "10.2 Termination by Us",
+        "p1": "We may suspend or terminate your account if you violate these Terms, engage in prohibited activities, or for other legitimate business reasons with reasonable notice."
+      },
+      "effect": {
+        "title": "10.3 Effect of Termination",
+        "p1": "Upon termination, your right to use the platform ceases immediately. We will retain your data according to our Privacy Policy and data retention policies."
+      }
+    },
+    "law": {
+      "title": "11. Governing Law and Dispute Resolution",
+      "governing": {
+        "title": "11.1 Governing Law",
+        "p1": "These Terms are governed by the laws of Ethiopia, without regard to conflict of law principles."
+      },
+      "dispute": {
+        "title": "11.2 Dispute Resolution",
+        "p1": "Any disputes arising from these Terms or your use of the platform shall be resolved through good faith negotiation. If negotiation fails, disputes shall be resolved through binding arbitration in Addis Ababa, Ethiopia."
+      }
+    },
+    "changes": {
+      "title": "12. Changes to Terms",
+      "p1": "We may update these Terms from time to time. Material changes will be communicated through the platform or via email. Your continued use of the platform after changes constitutes acceptance of the updated Terms."
+    },
+    "contact": {
+      "title": "13. Contact Information",
+      "intro": "Legal and Support Contacts",
+      "legal": {
+        "title": "Legal Department",
+        "email": "Email: legal@tenadamconsulting.com",
+        "phone": "Phone: +251-993-51-8990"
+      },
+      "support": {
+        "title": "Technical Support",
+        "email": "Email: support@tenadamconsulting.com",
+        "phone": "Phone: +251-993-51-8990"
+      },
+      "address": "Address: Tenadam Training, Consultancy & Research PLC\nAddis Ababa, Ethiopia",
+      "p1": "If you have any questions about these Terms of Service, please contact us using the information above. We are committed to addressing your concerns and ensuring a clear understanding of your rights and obligations."
+    },
+    "footer": {
+      "backToHome": "Back to Home",
+      "privacy": "Privacy Policy"
+    }
+  }
+}
